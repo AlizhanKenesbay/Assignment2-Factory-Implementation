@@ -1,10 +1,10 @@
-package assignment2;
+package assignment2updated;
 
-public class ColdLemonade implements Beverage {
+public class HotDrink implements Beverage {
     private final String name;
     private final double price;
 
-    public ColdLemonade(String name, double price) {
+    public HotDrink(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -21,6 +21,6 @@ public class ColdLemonade implements Beverage {
 
     @Override
     public void prepare() {
-        System.out.println("Serving cold: " + name);
+        System.out.println("Pouring hot: " + name);
     }
 }
